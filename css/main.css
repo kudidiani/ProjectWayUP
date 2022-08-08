@@ -1,12 +1,144 @@
 body{
-    font-family: 'Montserrat', sans-serif;
     font-family: 'Open Sans', sans-serif;
+    padding: 0;
+    margin: 0;
+    font-size: 15px;
 }
 
 div, p, input, button, form, span, a, ul, li {
     box-sizing: border-box;
 }
-
+p{
+    line-height: 1.6em;
+}
 h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+}
+
+.container {
+    width: 1171px;
+    margin: 0 auto; /*in the centre*/
+}
+
+.header {
+
+    background: rgba(117,124,199,1);
+    background: -moz-linear-gradient(-45deg, rgba(117,124,199,1) 0%, rgba(42,22,102,1) 100%);
+    background: -webkit-gradient(left top, right bottom, color-stop(0%, rgba(117,124,199,1)), color-stop(100%, rgba(42,22,102,1)));
+    background: -webkit-linear-gradient(-45deg, rgba(117,124,199,1) 0%, rgba(42,22,102,1) 100%);
+    background: -o-linear-gradient(-45deg, rgba(117,124,199,1) 0%, rgba(42,22,102,1) 100%);
+    background: -ms-linear-gradient(-45deg, rgba(117,124,199,1) 0%, rgba(42,22,102,1) 100%);
+    background: linear-gradient(135deg, rgba(117,124,199,1) 0%, rgba(42,22,102,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#757cc7', endColorstr='#2a1666', GradientType=1 );
+    padding-top: 100px;
+    color: aliceblue;
+    padding-bottom: 225px;
+}
+
+.wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.offer {
+    margin-top: 80px;
+    width: 490px;
+}
+.title {
+    font-size: 36px;
+}
+.title span {
+    color: #42f57b;
+}
+.btn {
+    display: block;
+    background: orange;
+    color: aliceblue;
+    font-family: 'Montserrat', sans-serif;
+    border-radius: 100px;
+    width: 205px;
+    padding: 18px 0;
+    text-align: center;
+    text-decoration: none;
+    transition: all 0.5s ease;
+}
+.btn:hover {
+    background: #de7104;
+}
+
+.intro {
+    margin-top: 34px;
+    margin-bottom: 34px;
+    width: 390px;
+}
+
+.logo{
+    margin-bottom: 72px;
+}
+.h2Title {
+    font-size: 30px;
+}
+.learn{
+    padding-top: 108px;
+    padding-bottom: 120px;
+}
+.allskills {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 100px;
+}
+
+.skilltitle{
+    font-size: 18px;
+}
+.skilltext{
+    font-weight: normal;
+    margin-top: 7px;
+}
+.skills{
+    padding-left: 100px;
+    width: 350px;
+    background: url(../img/icon1.jpg)no-repeat left top;
+}
+.skill2{
+    width: 380px;
+    background: url(../img/icon2.jpg)no-repeat left top;
+}
+.skill3{
+    background: url(../img/icon3.jpg)no-repeat left top;
+}
+
+.mail{
+    background: #BFB8D1;
+    padding-top: 173px;
+    padding-bottom: 193px;
+}
+.input{
+    width: 474px;
+    border: 1px solid #BFB8D1;
+    font-size: 15px;
+    font-family: 'Open Sans', sans-serif;
+    border-radius: 100px;
+    height: 54px;
+    padding-left: 38px;
+}
+.btnForm{
+    border: none;
+    cursor: pointer;
+    display: inline; /*вместо флекс бокс*/
+    margin-left: 11px;
+}
+.form{
+    margin-top: 40px;
+}
+.footer{
+    background: rgb(88, 26, 188);
+    padding: 35px 0;
+}
+.credits{
+    font-size: 14px;
+    color: #efa8ff;
     margin: 0;
 }
