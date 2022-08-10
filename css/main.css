@@ -52,7 +52,7 @@ h1, h2, h3, h4, h5, h6 {
 .title span {
     color: #42f57b;
 }
-.btn {
+.btnmain {
     display: block;
     background: orange;
     color: aliceblue;
@@ -64,8 +64,9 @@ h1, h2, h3, h4, h5, h6 {
     text-decoration: none;
     transition: all 0.5s ease;
 }
-.btn:hover {
+.btnmain:hover {
     background: #de7104;
+    color: aliceblue;
 }
 
 .intro {
@@ -141,4 +142,61 @@ h1, h2, h3, h4, h5, h6 {
     font-size: 14px;
     color: #efa8ff;
     margin: 0;
+}
+ /*responsive*/
+ /* 992px-1200px*/
+ @media screen and (max-width: 1200px) { 
+   .container{
+        width: 960px; ;
+   }
+   
+   
+ }
+ /* 768px-992px*/
+ @media screen and (max-width: 992px) { 
+    .container{
+        width: 720px; ;
+    }
+    .wrapper{
+        flex-direction: column;
+    }
+    .offer{
+        width: 100%;
+    }
+    .intro{
+        width: 100%;
+    }
+    .desctop{
+        display: block;
+        width: 549px;
+        margin: 0 auto;
+    }
+    .allskills{
+        flex-direction: column;
+    }
+    .skills{
+        width: auto;
+        margin-bottom: 30px;
+    }   
+}
+ /* 576px-768px*/
+ @media screen and (max-width: 768px) { 
+    .container{
+        width: auto; ;
+       }
+       .desctop{
+        width: 100%;
+       }
+       .input{
+        width: 100%;
+       margin-bottom: 15px;
+    }
+    .btnForm{
+        width: 100%;
+        margin-left: 0;
+    }
+}
+ /* 320px-576px*/
+ @media screen and (max-width: 576px) { 
+
 }
